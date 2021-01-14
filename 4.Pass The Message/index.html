@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass The Message</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="box">
+        <form>
+            <label for="title" id="title">A Message You Would Like to Pass</label><br>
+            <input type="text" id="msg" onfocus="this.value=''"><br>
+            <label for=subTitle id="subTitle">Last Message Delivered :</label><br>
+            <p id="lastMsg"></p><br>
+            <button type="button" id="btn" onclick="msgs()">Submit</button>
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
