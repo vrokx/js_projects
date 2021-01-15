@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    background-color: #F0F8FF;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 30%;
+    height: 80%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    background: #F0F8FF;
+    box-shadow: inset 5px 5px 10px #c0c6cc,
+            inset -5px -5px 10px #ffffff;
+}
+h1{
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+.counter{
+    position: relative;
+    top: 50px;
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+    color: #333333;
+    text-align: center;
+}
+.lowerBtn{
+    position: relative;
+    top: 20%;
+    left: -5%;
+    width: 25%;
+    height: 8%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #c0c6cc,
+             -5px -5px 10px #ffffff;
+    cursor: pointer;
+}
+.lowerBtn.clicked{
+    box-shadow: inset 5px 5px 10px #c0c6cc,
+            inset -5px -5px 10px #ffffff;
+}
+.addBtn{
+    position: relative;
+    top: 20%;
+    left: 0%;
+    width: 25%;
+    height: 8%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #c0c6cc,
+             -5px -5px 10px #ffffff;
+    cursor: pointer;
+}
+.addBtn.clicked{
+    box-shadow: inset 5px 5px 10px #c0c6cc,
+            inset -5px -5px 10px #ffffff;
+}
