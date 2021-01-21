@@ -1,0 +1,121 @@
+body{
+    overflow: hidden;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+#result{
+    outline: none;
+    font-size: 30px;
+    border: none;
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 90vw;
+    height: 200px;
+}
+table{
+    float: left;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-collapse: collapse;
+}
+td{
+    padding: 0;
+    margin: 0;
+}
+tr{
+    width: 100%;
+}
+.button {
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    font-size: 28px;
+    color: #000000;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    background-position: center;
+    transition: background 0.8s;
+}
+.button:hover {
+    outline: none;
+    background: #ffffff radial-gradient(circle, transparent 1%, #ffffff 1%) center/15000%;
+  }
+  .button:active {
+      border: none;
+      outline: none;
+      background-color: rgb(219, 219, 219);
+      background-size: 100%;
+      transition: background 0s;
+  }
+.button.clear{
+    color: white;
+    background-color: greenyellow;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+}
+.button.clear:hover {
+    background:greenyellow radial-gradient(circle, transparent 1%, greenyellow 1%) center/15000%;
+  }
+  .button.clear:active {
+      background-color:white;
+      background-size: 100%;
+      transition: background 0s;
+  }
+  .button.back{
+      color: white;
+    background-color: tomato;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    border: none;
+    outline: none;
+    border-radius: ;
+}
+.button.back:hover {
+    background:tomato radial-gradient(circle, transparent 1%, tomato 1%) center/15000%;
+  }
+  .button.back:active {
+      background-color:white;
+      background-size: 100%;
+      transition: background 0s;
+  }
+  .button.blue{
+      color: white;
+    background-color: #75CBF3;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.button.blue:hover {
+    background: #75CBF3 radial-gradient(circle, transparent 1%, #75CBF3 1%) center/15000%;
+  }
+  .button.blue:active {
+      background-color: white;
+      background-size: 100%;
+      transition: background 0s;
+  }
