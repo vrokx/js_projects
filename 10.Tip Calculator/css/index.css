@@ -102,23 +102,3 @@ p{
              -5px -5px 10px #ffffff;
   cursor: pointer;
 }
-.btn:hover{
-  background: #e0f7ff;
-  box-shadow: inset 5px 5px 10px #abced9,
-              inset -5px -5px 10px #e7ffff;
-  cursor: pointer;
-}
-.btnClicked{
-  position: relative;
-  left: 40%;
-  margin-bottom: 20px;
-  width: 20%;
-  height: 30px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  background: #e0f7ff;
-  box-shadow: inset 5px 5px 10px #abced9,
-              inset -5px -5px 10px #e7ffff;
-  cursor: pointer;
-}
