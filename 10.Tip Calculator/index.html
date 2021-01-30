@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container">
+    <center><div class="title"><h2>Tip Calculator</h2></div></center>
+    <div class="content">
+      <form>
+        <label >How Much Your Bill?</label><br>
+        <label id="dollar">$</label><input type="number" name="amnt" id="amnt" placeholder="Must Be Greater Than Zero"><br>
+        <label >How Many People Sharing The Bill?</label><br>
+        <label id="user"><img src="img/user.png" alt="user"></label><input type="number" name="people" id="people" placeholder="Must Be Greater Than Zero"><br>
+        <label >How Was Your Service</label><br>
+        <select name="service" id="service">
+          <option value="choose" selected disabled>--Choose an Option--</option>
+          <option value="20">GREAT - 20%</option>
+          <option value="10">GOOD - 10%</option>
+          <option value="5">BAD - 5%</option>
+        </select>
+      </form>
+      <center>
+      <p></p>
+      <p></p>
+      <p></p>
+      </center>
+      <button type="submit" class="btn" onclick="calculate();">Calculate</button>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

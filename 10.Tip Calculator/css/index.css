@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: #e0f7ff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 50vw;
+  height: fit-content;
+  border-radius: 20px;
+  background: #e0f7ff;
+  box-shadow:  5px 5px 10px #bed2d9,
+             -5px -5px 10px #ffffff;
+}
+.title{
+  position: relative;
+  height: 50px;
+  padding: 10px 0px 20px 0px;
+  border-radius: 10px 10px 0px 0px;
+  background: #c9f2ff;
+  box-shadow:  5px 5px 10px #bed2d9,
+             -5px -5px 10px #ffffff;
+}
+#amnt{
+  margin-left: 13.5%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  width: 73.5%;
+  height: 25px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #e0f7ff;
+  box-shadow: inset 4px 4px 8px #bed2d9,
+            inset -4px -4px 8px #ffffff;
+}
+#people{
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  width: 73.5%;
+  height: 25px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #e0f7ff;
+  box-shadow: inset 4px 4px 8px #bed2d9,
+            inset -4px -4px 8px #ffffff;
+}
+#service{
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  width: 75%;
+  height: 25px;
+  padding-left: 8px;
+  border-radius: 5px;
+  background: #e0f7ff;
+  box-shadow: inset 4px 4px 8px #bed2d9,
+            inset -4px -4px 8px #ffffff;
+}
+.content{
+  position: relative;
+  margin-top: 10%;
+}
+label{
+  position: relative;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50% , -50%);
+  font-size: 20px;
+  margin-top: 10px;
+}
+img{
+  position: absolute;
+  margin-top: 15px;
+  width: 20px;
+}
+p{
+  position: relative;
+}
+.btn{
+  position: relative;
+  left: 40%;
+  margin-bottom: 20px;
+  width: 20%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #c9f2ff;
+  box-shadow:  5px 5px 10px #bed2d9,
+             -5px -5px 10px #ffffff;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #e0f7ff;
+  box-shadow: inset 5px 5px 10px #abced9,
+              inset -5px -5px 10px #e7ffff;
+  cursor: pointer;
+}
+.btnClicked{
+  position: relative;
+  left: 40%;
+  margin-bottom: 20px;
+  width: 20%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #e0f7ff;
+  box-shadow: inset 5px 5px 10px #abced9,
+              inset -5px -5px 10px #e7ffff;
+  cursor: pointer;
+}
