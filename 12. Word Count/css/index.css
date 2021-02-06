@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  outline: 0;
+  border: none;
+  background: #94c2b8;
+}
+#inputBox {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  width: 30vw;
+  height: 30px;
+  font-size: 22px;
+  padding-left: 10px;
+  border-radius: 5px;
+  color: rgb(32, 46, 85);
+  border-radius: 5px;
+  background: #94c2b8;
+  box-shadow: inset 5px 5px 10px #7ea59c, inset -5px -5px 10px #aadfd4;
+  font-family: 'Patrick Hand', cursive;
+}
+#outputBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  width: fit-content;
+  height: 30px;
+  font-size: 30px;
+  color: rgb(32, 46, 85);
+  font-family: 'Patrick Hand', cursive;
+}
+#btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  width: 10vw;
+  height: 30px;
+  font-size: 23px;
+  color: rgb(32, 46, 85);
+  border-radius: 5px;
+  border-radius: 5px;
+  background: #94c2b8;
+  box-shadow: 5px 5px 10px #7ea59c, -5px -5px 10px #aadfd4;
+  font-family: 'Patrick Hand', cursive;
+  cursor: pointer;
+}
